@@ -27,7 +27,7 @@
          bindings = <
 	 DE_ESC    DE_Q    DE_W    DE_E    DE_R    DE_T                              DE_Y    DE_U     DE_I    DE_O    DE_P    DE_BSPC
 	 DE_TAB    DE_A    DE_S    DE_D    DE_F    DE_G                              DE_H    DE_J     DE_K    DE_L    DE_SEMI DE_RET
-	 DE_LALT   DE_Z    DE_X    DE_C    DE_V    DE_B                              DE_N    DE_M     DE_COMM DE_DOT  DE_SLSH DE_LSHFT
+	 DE_LSHFT  DE_Z    DE_X    DE_C    DE_V    DE_B                              DE_N    DE_M     DE_COMM DE_DOT  DE_SLSH DE_LALT
                                    DE_LCTRL   DE_SPACE      MO_LAY 1        MO_LAY 2 DE_SPACE     DE_LGUI
                         >;
                 };
@@ -45,7 +45,7 @@
          bindings = <
 	 DE_ESC   DE_1     DE_2    DE_3    DE_4    DE_5                              DE_6    DE_7    DE_8    DE_9    DE_0    DE_BSPC
 	 DE_TAB   ___      ___     ___     ___     ___                               DE_LEFT DE_DOWN DE_UP   DE_RIGHT ___    DE_RET
-	 DE_LALT  ___      ___     ___     ___     ___                               ___     ___     ___     ___     ___     DE_LSHFT
+	 DE_LSHFT ___      ___     ___     ___     ___                               ___     ___     ___     ___     ___     DE_LALT
                                    DE_LCTRL   DE_SPACE    ___               ___      DE_SPACE     DE_LGUI
                         >;
                 };
@@ -54,17 +54,17 @@
       /*.------------------------------------------------.                         .-------------------------------------------------.
          |  ESC   |   !   |   @   |   #   |   $   |   %   |                         |   (   |   )   |   |   |   =   |   '   | BACKSPC |
          |--------+-------+-------+-------+-------+-------|                         |-------+-------+-------+-------+-------+---------|
-         |  TAB   |   &   |   *   |       |       |       |                         |   [   |   ]   |       |       |   ~   |   ENTER |
+         |  TAB   |   &   |   *   |       |       |       |                         |   [   |   ]   |       |   _   |   -   |   ENTER |
          |--------+-------+-------+-------+-------+-------|                         |-------+-------+-------+-------+-------+---------|
-         |  ALT   |       |       |       |       |       |                         |   {   |   }   |       |       |   -   |   SHIFT |
+         |  ALT   |       |       |       |       |       |                         |   {   |   }   |       |       |   ~   |   SHIFT |
          '---------------------------------------------------------|       |----------------------------------------------------------'
                                   |  CTRL    |  SPC       |        |       |        | SPC        |   GUI    |
                                   '--------------------------------'       '----------------------------------'*/
 
          bindings = <
-	 DE_ESC    DE_EXCL DE_AT   DE_HASH DE_DLR  DE_PERC                           DE_LPAR DE_RPAR DE_PIPE DE_EQUAL DE_ACUT  DE_BSPC
-	 DE_TAB    DE_AMPS DE_STAR ___     ___     ___                               DE_LBKT DE_RBKT ___     ___     DE_TILDE  DE_RET
-	 DE_LALT  ___      ___     ___     ___     ___                               DE_LBRC DE_RBRC ___     ___     DE_MINUS  DE_LSHFT
+	 DE_ESC    DE_EXCL DE_AT   DE_HASH DE_DLR  DE_PERC                           DE_LPAR DE_RPAR DE_PIPE DE_EQUAL DE_ACUT   DE_BSPC
+	 DE_TAB    DE_AMPS DE_STAR ___     ___     ___                               DE_LBKT DE_RBKT ___     DE_UNDER DE_MINUS  DE_RET
+	 DE_LSHFT  ___     ___     ___     ___     ___                               DE_LBRC DE_RBRC ___     ___      DE_TILDE  DE_LALT
                                    DE_LCTRL   DE_SPACE    ___               ___      DE_SPACE     DE_LGUI
                         >;
                 };
