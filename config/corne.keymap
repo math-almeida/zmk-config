@@ -52,7 +52,7 @@
 
                 raise_layer {
       /*.------------------------------------------------.                         .-------------------------------------------------.
-         |  ESC   |   !   |   @   |   #   |   $   |   %   |                         |   (   |   )   |   |   |   =   |   `   | BACKSPC |
+         |  ESC   |   !   |   @   |   #   |   $   |   %   |                         |   (   |   )   |   |   |   =   |   '   | BACKSPC |
          |--------+-------+-------+-------+-------+-------|                         |-------+-------+-------+-------+-------+---------|
          |  TAB   |   &   |   *   |       |       |       |                         |   [   |   ]   |       |       |   ~   |   ENTER |
          |--------+-------+-------+-------+-------+-------|                         |-------+-------+-------+-------+-------+---------|
@@ -62,7 +62,7 @@
                                   '--------------------------------'       '----------------------------------'*/
 
          bindings = <
-	 DE_ESC    DE_EXCL DE_AT   DE_HASH DE_DLR  DE_PERC                           DE_LPAR DE_RPAR DE_PIPE DE_EQUAL DE_GRAVE DE_BSPC
+	 DE_ESC    DE_EXCL DE_AT   DE_HASH DE_DLR  DE_PERC                           DE_LPAR DE_RPAR DE_PIPE DE_EQUAL DE_ACUT  DE_BSPC
 	 DE_TAB    DE_AMPS DE_STAR ___     ___     ___                               DE_LBKT DE_RBKT ___     ___     DE_TILDE  DE_RET
 	 DE_LALT  ___      ___     ___     ___     ___                               DE_LBRC DE_RBRC ___     ___     DE_MINUS  DE_LSHFT
                                    DE_LCTRL   DE_SPACE    ___               ___      DE_SPACE     DE_LGUI
