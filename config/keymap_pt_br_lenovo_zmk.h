@@ -73,6 +73,10 @@
 #define DE_BRI_UP &kp C_BRI_UP
 #define DE_BRI_DN &kp C_BRI_DN
 
+// SNIPPETS
+#define NAV_BF &kp LC(X)
+#define NAV_W &kp LC(W)
+
 /* First layer
  *
  * ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬─────┐
