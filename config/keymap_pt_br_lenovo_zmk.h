@@ -181,7 +181,7 @@
 #define DE_CARRET &kp LS(APOS)  // ^
 #define DE_RBRC &kp LS(BSLH)    // }
 // Row 4
-#define DE_PIPE &kp LS(LT)      // |
+#define DE_PIPE &kp LS(NUBS)    // |
 #define DE_LT &kp LS(COMMA)     // <
 #define DE_GT &kp LS(DOT)       // >
 #define DE_COLN &kp LS(FSLH)    // :
